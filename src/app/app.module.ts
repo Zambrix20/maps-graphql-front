@@ -7,16 +7,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { ExchangeRatesComponent } from './exchange-rates/exchange-rates.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ExchangeRatesComponent
-  ],
-  imports: [
-    BrowserModule,
-    GraphQLModule,
-    HttpClientModule
-  ],
+  declarations: [AppComponent, ExchangeRatesComponent],
+  imports: [BrowserModule, GraphQLModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
